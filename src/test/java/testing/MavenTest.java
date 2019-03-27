@@ -19,7 +19,7 @@ public class MavenTest {
 		public void beforeTest() {	
 		    driver = new ChromeDriver();  
 		}		
-		@AfterTest(enabled=false)
+		@AfterTest
 		public void afterTest() {
 			driver.quit();			
 		}		
