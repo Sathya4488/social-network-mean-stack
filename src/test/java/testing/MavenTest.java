@@ -8,19 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;	
 import org.testng.annotations.AfterTest;		
 public class MavenTest {		
-	    private WebDriver driver;		
+	    		
 		@Test				
 		public void testEasy() {	
 		System.setProperty("webdriver.chrome.driver", "/home/sathya/Downloads/chromedriver");
+			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.facebook.com/");  
 					
-		}	
-		@BeforeTest
-		public void beforeTest() {	
-		    driver = new ChromeDriver();  
-		}		
-		@AfterTest
-		public void afterTest() {
-			driver.quit();			
 		}		
 }	
