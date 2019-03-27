@@ -12,7 +12,7 @@ public class MavenTest {
 		@Test				
 		public void testEasy() {	
 		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
-			WebDriver driver = new FireFoxDriver();
+			WebDriver driver = new FirefoxDriver();
 			driver.get("https://www.facebook.com/");  
 					
 		}	
