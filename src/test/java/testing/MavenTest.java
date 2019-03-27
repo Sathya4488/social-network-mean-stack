@@ -11,8 +11,8 @@ public class MavenTest {
 	    		
 		@Test				
 		public void testEasy() {	
-		System.setProperty("webdriver.chrome.driver", "/home/sathya/Downloads/chromedriver");
-			WebDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver", "/home/sathya/Downloads/geckodriver");
+			WebDriver driver=new FirefoxDriver();
 			driver.get("https://www.facebook.com/");  
 					
 		}		
