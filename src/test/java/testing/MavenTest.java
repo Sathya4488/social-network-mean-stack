@@ -11,7 +11,7 @@ public class MavenTest {
 	  //  private WebDriver driver;		
 		@Test				
 		public void testEasy() {	
-		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();	
 		driver.get("http://www.google.com");  
 					
