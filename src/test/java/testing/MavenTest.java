@@ -13,7 +13,7 @@ public class MavenTest {
 		public void testEasy() {	
 		System.setProperty("webdriver.gecko.driver", ".drivers/geckodriver");
 		WebDriver driver = new FirefoxDriver();	
-		driver.get("https://www.facebook.com/");  
+		driver.get("http://localhost:8888/Project/login");  
 					
 		}	
 	/*
