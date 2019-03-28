@@ -11,7 +11,7 @@ public class MavenTest {
 	  //  private WebDriver driver;		
 		@Test				
 		public void testEasy() {	
-		System.setProperty("webdriver.gecko.driver", ".drivers/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/var/lib/jenkins/workspace/ForTest/drivers/geckodriver");
 		WebDriver driver = new FirefoxDriver();	
 		driver.get("http://localhost:8888/Project/login");  
 					
